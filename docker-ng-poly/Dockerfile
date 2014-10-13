@@ -1,6 +1,6 @@
 # Environment for project using ng-poly generator
 #   https://github.com/dustinspecker/generator-ng-poly
-FROM sted/npm
+FROM lkndesign/npm
 MAINTAINER Sylvain <stedoldi@lkn-design.com>
 
 RUN sudo apt-get update \

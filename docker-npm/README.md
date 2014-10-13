@@ -1,5 +1,5 @@
-base
-====
+npm
+===
 
 This image builds my default environment for NPM / nodejs projects.
 
@@ -20,9 +20,16 @@ tools included
 
 Volume shared
 -------------
-  - /app: the place where the application is managed
-  - /home: the home of the 'user'
+  - `/app`: the place where the application is managed
+  - `/home`: the home of the 'user'
 
 Entrypoint
 ----------
-  - /bin/zsh (from sted/base)
+  - `/bin/zsh` (from [base](../docker-base))
+
+Default build command
+---------------------
+
+```
+docker build --tag lkndesign/npm .
+```

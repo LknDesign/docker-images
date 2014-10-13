@@ -3,6 +3,8 @@ base
 
 This image builds my default environment based on Debian jessie (8.0)
 
+This is an "abstract" image and is not suitable to be directly used as a docker container, but as a re-usable Dockerfile base image.
+
 user
 ----
 
@@ -23,3 +25,10 @@ Volume shared
 Entrypoint
 ----------
   - /bin/zsh
+
+Default build command
+---------------------
+
+```
+docker build --tag lkndesign/base .
+```

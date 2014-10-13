@@ -1,6 +1,6 @@
 # This build a NPM / nodejs environment
 
-FROM sted/base
+FROM lkndesign/base
 MAINTAINER Sylvain <stedoldi@lkn-design.com>
 
 RUN PATH=/root/fake:$PATH sudo -E apt-get install -qqy --no-install-recommends \

@@ -14,12 +14,12 @@ use cases
 
 Serve the application:
 ```sh
-docker run -d --name <your-app-name> -d -v /my/local/app/dir/:/app/ -p 3000:3000 sted/ng-poly -c gulp
+docker run -d --name <your-app-name> -d -v /my/local/app/dir/:/app/ -p 3000:3000 lkndesign/ng-poly -c gulp
 ```
 
 Enter the shell:
 ```sh
-docker run --rm -it -p 3000:3000 -v /my/local/app/dir/:/app/ -v /my/local/home/:/home/ sted-ng-poly
+docker run --rm -it -p 3000:3000 -v /my/local/app/dir/:/app/ -v /my/local/home/:/home/ lkndesign/ng-poly
 ```
 
 
@@ -41,4 +41,4 @@ Exposed port
 
 Entrypoint
 ----------
-  - `/bin/zsh` (from sted/base), workdir being `/app`
+  - `/bin/zsh` (from [base](../docker-base)), workdir being `/app`
