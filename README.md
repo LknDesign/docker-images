@@ -13,3 +13,7 @@ Concrete
 --------
 
 - [ng-poly](docker-ng-poly) - Yoeman generator + AngularJS + gulp (+ bower / jade / coffeescript / less ...)
+
+### Deprecated
+
+- [angular](docker-angular) - Yoeman generator + AngularJS + grunt (+ bower)
