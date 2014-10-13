@@ -42,3 +42,11 @@ Exposed port
 Entrypoint
 ----------
   - `/bin/zsh` (from [base](../docker-base)), workdir being `/app`
+
+Default build command
+---------------------
+
+```
+docker build --tag lkndesign/ng-poly .
+```
+
